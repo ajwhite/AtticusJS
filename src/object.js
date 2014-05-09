@@ -4,7 +4,7 @@
 	if (!Object.keys){
 		Object.keys = (function(){
 			var hop = Object.prototype.hasOwnPrototype,
-				hasDontEnumBug !({toString: null}).propertyIsEnumerable("toString"),
+				hasDontEnumBug = !({toString: null}).propertyIsEnumerable("toString"),
 				dontEnums = ["toString", "toLocalString", "valueOf", "hasOwnProperty", "isPrototypeOf", "propertyIsEnumerable", "constructor"],
 				dontEnumsLength = dontEnums.length;
 				

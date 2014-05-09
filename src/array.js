@@ -22,7 +22,7 @@
 			if (typeof accumulator !== "function")
 				throw new TypeError("First argument is not callable");
 			
-			if ((l == 0 || l === null) && (arguments.length <= 1))
+			if ((l === 0 || l === null) && (arguments.length <= 1))
 				throw new TypeError("Array length is 0 and no second argument");
 				
 			if (arguments.length <= 1){
@@ -61,7 +61,7 @@
 	if (!Array.prototype.variance){
 		Array.prototype.variance = function( sample ){
 			var avg = this.average();
-			return (this.map(function(n){ return ((n-avg) * (n-avg)); }).sum() / (this.length - (sample ? 1 : 0 ));
+			return (this.map(function(n){ return ((n-avg) * (n-avg)); }).sum() / (this.length - (sample ? 1 : 0 )));
 		};
 	}
 	

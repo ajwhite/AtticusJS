@@ -27,7 +27,7 @@
 	if (!String.prototype.contains){
 		String.prototype.contains = function(substr){
 			return this.indexOf(substr) !== -1;
-		}
+		};
 	}
 	
 	if (!String.prototype.replaceAll){

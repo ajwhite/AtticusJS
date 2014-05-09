@@ -1,7 +1,7 @@
 (function(exports){
 	"use strict";
 	
-	var Utils = function(){}
+	var Utils = function(){};
 	
 	Utils.getUrlVars = function(){
 		var vars = {}, hash;

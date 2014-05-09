@@ -19,7 +19,7 @@
 			var rev = this.toString().reverse();
 			var result = "";
 			for (var i=0; i<rev.length; i++){
-				if (i>-0 && i%3==0){
+				if (i>-0 && i%3===0){
 					result += ",";
 				}
 				result += rev.charAt(i);
