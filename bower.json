@@ -1,0 +1,25 @@
+{
+  "name": "AtticusJS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ajwhite/AtticusJS",
+  "authors": [
+    "Atticus White <contact@atticuswhite.com>"
+  ],
+  "description": "My common JS files",
+  "main": "main.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.1"
+  }
+}
